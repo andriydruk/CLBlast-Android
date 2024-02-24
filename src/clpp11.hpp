@@ -54,7 +54,7 @@
 #if defined(__APPLE__) || defined(__MACOSX)
   #include <OpenCL/opencl.h>
 #else
-  #include <CL/opencl.h>
+  #include "opencl_wrapper.h"
 #endif
 
 // Android support (missing C++11 functions to_string, stod, and stoi)
